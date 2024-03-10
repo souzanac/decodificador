@@ -47,3 +47,6 @@ Este projeto é um Challenge da Alura que conta como parte do processo de seleç
 
 # ★ Badge gerada pela conclusão do Challenge 
 
+<p align="center">
+  <img src="https://github.com/souzanac/decodificador/blob/970e1a93c677d9d8d30fd05cc32bac2552f634b0/assets/image.png" alt="IMAGEM">
+</p>
