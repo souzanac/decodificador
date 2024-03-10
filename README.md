@@ -1,7 +1,7 @@
 | <img src="https://github.com/souzanac/decodificador/blob/1b0668c5b8522d88cfdce57034b446653915f83f/assets/design_1.png" alt="Imagem 1" width="900"> | <img src="https://github.com/souzanac/decodificador/blob/1b0668c5b8522d88cfdce57034b446653915f83f/assets/design_2.png" alt="Imagem 2" width="900"> |
 |---|---|
 
-Este projeto é parte do processo de seleção da Turma 6 da ONE - Oracle Next Education de formação em front-end, em colaboração com a Alura. O Decodificador de mensagens desenvolvido é uma aplicação que visa encriptar e descriptar mensagens utilizando uma regra lógica fornecida durante o desafio, além de utilizar uma interface dinâmica e divertida com o tema do Anime "Dr. Stone".
+Este projeto é um Challenge da Alura que conta como parte do processo de seleção da Turma 6 da ONE - Oracle Next Education de formação em front-end, em colaboração com a Alura. O Decodificador de mensagens desenvolvido é uma aplicação que visa encriptar e descriptar mensagens utilizando uma regra lógica fornecida durante o desafio, além de utilizar uma interface dinâmica e divertida com o tema do Anime "Dr. Stone".
 
 ---
 
@@ -42,3 +42,8 @@ Este projeto é parte do processo de seleção da Turma 6 da ONE - Oracle Next E
 # 🛠️ Abrir e rodar o projeto
 
 - Após abrir o link, basta começar a interagir com o projeto inserindo uma mensagem na caixinha de texto do Card 1 e escolher se deseja encriptar ou desencriptar uma mensagem apertando nos botões correspondentes!
+
+---
+
+# ★ Badge gerada pela conclusão do Challenge 
+
