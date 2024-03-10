@@ -37,7 +37,7 @@ Este projeto é parte do processo de seleção da Turma 6 da ONE - Oracle Next E
 
 # 📁 Acesso ao projeto
 
-- Você pode acessar o projeto publicado em [Decodificador]()
+- Você pode acessar o projeto publicado em [Decodificador](https://decodificador-gamma-wheat.vercel.app/)
 
 # 🛠️ Abrir e rodar o projeto
 
