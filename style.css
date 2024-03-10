@@ -1,4 +1,4 @@
-/* FONTS */
+                     /* FONTS*/
 
 @font-face {
   font-family: 'Dalmation';
@@ -35,7 +35,7 @@ body, html {
   .right {
     background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url('assets/senku_background.gif') center center no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 100%;
   }
   
   .welcome-text {
@@ -49,51 +49,51 @@ body, html {
     margin: 0;
     margin-top: 10px;
     font-family: 'Dalmation', sans-serif;
-    font-size: 6vw; 
+    font-size: 60px;
   }
   
   .welcome-text p {
     margin: 0;
-    margin-top: 2vh; 
-    font-size: 3vh; 
+    margin-top: 20px;
+    font-size: 30px;
   }
 
   /* CARD */
  
   .card {
     width: 90%;
-    max-width: 90%; 
-    margin: 5vh auto; 
-    padding: 5vw; 
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 2vw; 
+    border-radius: 5px;
     text-align: center;
   }
   
   .gif {
     display: block;
-    margin: 0 auto 2vh; 
+    margin: 0 auto 20px;
     max-width: 100%;
   }
   
   .input-container,
   .output-container {
-    margin-bottom: 2vh; 
+    margin-bottom: 20px;
   }
   
   textarea {
-    width: calc(100% - 10vw); 
-    padding: 2vh; 
-    border-radius: 2vw; 
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
     border: 1px solid #ccc;
     resize: none;
-    font-size: 1.5vw; 
+    font-size: 15px;
   }
   
   button {
-    padding: 2vh 4vw; 
+    padding: 10px 20px;
     border: none;
-    border-radius: 2vw; 
+    border-radius: 5px;
     background-color: #007bff;
     color: #fff;
     cursor: pointer;
@@ -110,44 +110,8 @@ body, html {
   
   footer {
     background-color: transparent;
-    padding: 2vh;
+    padding: 10px;
     text-align: center;
-    font-size: 2vw; 
+    font-size: 20px;
     opacity: 0.7;
   }
-
-/* Media Queries */
-@media screen and (max-width: 768px) {
-  .welcome-text h1 {
-    font-size: 8vw;
-  }
-  
-  .welcome-text p {
-    font-size: 4vw;
-  }
-  
-  .card {
-    max-width: 90%;
-    margin: 5vh auto;
-    padding: 5vw;
-    border-radius: 2vw;
-  }
-  
-  textarea {
-    width: calc(100% - 10vw);
-    padding: 2vh;
-    border-radius: 2vw;
-    font-size: 2.5vw;
-  }
-  
-  button {
-    padding: 2vh 4vw;
-    border-radius: 2vw;
-    font-size: 2.5vw;
-  }
-  
-  footer {
-    font-size: 3vw;
-    padding: 2vh;
-  }
-}
