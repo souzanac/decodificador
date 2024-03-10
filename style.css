@@ -35,7 +35,7 @@ body, html {
   .right {
     background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url('assets/senku_background.gif') center center no-repeat;
     background-size: cover;
-    min-height: 100vh; /* alterado de min-height: 100%; */
+    min-height: 100vh;
   }
   
   .welcome-text {
@@ -49,51 +49,51 @@ body, html {
     margin: 0;
     margin-top: 10px;
     font-family: 'Dalmation', sans-serif;
-    font-size: 6vw; /* alterado de font-size: 60px; */
+    font-size: 6vw; 
   }
   
   .welcome-text p {
     margin: 0;
-    margin-top: 2vh; /* alterado de margin-top: 20px; */
-    font-size: 3vh; /* alterado de font-size: 30px; */
+    margin-top: 2vh; 
+    font-size: 3vh; 
   }
 
   /* CARD */
  
   .card {
     width: 90%;
-    max-width: 90%; /* alterado de max-width: 400px; */
-    margin: 5vh auto; /* alterado de margin: 20px auto; */
-    padding: 5vw; /* alterado de padding: 20px; */
+    max-width: 90%; 
+    margin: 5vh auto; 
+    padding: 5vw; 
     border: 1px solid #ccc;
-    border-radius: 2vw; /* alterado de border-radius: 5px; */
+    border-radius: 2vw; 
     text-align: center;
   }
   
   .gif {
     display: block;
-    margin: 0 auto 2vh; /* alterado de margin: 0 auto 20px; */
+    margin: 0 auto 2vh; 
     max-width: 100%;
   }
   
   .input-container,
   .output-container {
-    margin-bottom: 2vh; /* alterado de margin-bottom: 20px; */
+    margin-bottom: 2vh; 
   }
   
   textarea {
-    width: calc(100% - 10vw); /* alterado de width: calc(100% - 20px); */
-    padding: 2vh; /* alterado de padding: 10px; */
-    border-radius: 2vw; /* alterado de border-radius: 5px; */
+    width: calc(100% - 10vw); 
+    padding: 2vh; 
+    border-radius: 2vw; 
     border: 1px solid #ccc;
     resize: none;
-    font-size: 1.5vw; /* alterado de font-size: 15px; */
+    font-size: 1.5vw; 
   }
   
   button {
-    padding: 2vh 4vw; /* alterado de padding: 10px 20px; */
+    padding: 2vh 4vw; 
     border: none;
-    border-radius: 2vw; /* alterado de border-radius: 5px; */
+    border-radius: 2vw; 
     background-color: #007bff;
     color: #fff;
     cursor: pointer;
@@ -112,7 +112,7 @@ body, html {
     background-color: transparent;
     padding: 2vh;
     text-align: center;
-    font-size: 2vw; /* alterado de font-size: 20px; */
+    font-size: 2vw; 
     opacity: 0.7;
   }
 
