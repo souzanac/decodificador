@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family=Anton&family=Rubik+Gemstones&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="background-container">
+        <div class="left">
+            <div class="card" id="card1">
+                <img src="assets/no_message.gif" alt="gif" class="gif">
+                <div class="input-container">
+                    <label for="mensagem">Digite uma mensagem:</label>
+                    <textarea id="mensagem" rows="4" cols="50"></textarea>
+                </div>
+                <button id="encriptador">Encriptador</button>
+                <button id="descriptador">Descriptador</button>
+            </div>
+            <div class="card" id="card2">
+                <img src="assets/sucess__message.gif" alt="gif" class="gif">
+                <div class="output-container">
+                    <label for="resultado">Resultado:</label>
+                    <textarea id="resultado" rows="4" cols="50" readonly></textarea>
+                </div>
+                <button id="copiar">Copiar</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="welcome-text">
+                <h1>Bem-vindo!</h1>
+                <p class="anton-regular">Eu vou usar o poder da Decodificação<br>para salvar todo mundo.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; souzanac - Todos os direitos reservados</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
